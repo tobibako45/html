@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*---------------------------------
+  cover
+  text-contents
+---------------------------------*/
+
+/*---------------------------------
+  cover
+---------------------------------*/
+.cover {
+  width: 100%;
+  height: 400px;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include sp {
+    height: 200px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+
+    @include sp {
+      @include fz_vw(24);
+    }
+
+    span {
+      font-size: 1.6rem;
+      display: block;
+
+      @include sp {
+        @include fz_vw(14);
+      }
+    }
+  }
+}
+
+/*---------------------------------
+  text-contents
+---------------------------------*/
+.text-contents {
+  text-align: center;
+  line-height: 2;
+  margin: 100px 0;
+
+  @include sp {
+    margin: 20px 0;
+  }
+}
