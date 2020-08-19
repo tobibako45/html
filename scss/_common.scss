@@ -38,7 +38,7 @@ $main-color: black;
   @return $rate * $size * 1vw;
 }
 
-// font-size vm
+// font-size vw
 @mixin fz_vw($font_size: 10) {
   font-size: $font_size * 1px;
   font-size: get_vw($font_size);
