@@ -1,0 +1,62 @@
+/*---------------------------------
+  cover
+  text-contents
+---------------------------------*/
+
+/*---------------------------------
+  cover
+---------------------------------*/
+.cover {
+    width: 100%;
+    height: 400px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 959px) {
+    .cover {
+        height: 200px;
+    }
+}
+
+.cover h1 {
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+}
+
+@media (max-width: 959px) {
+    .cover h1 {
+        font-size: 24px;
+        font-size: 6.4vw;
+    }
+}
+
+.cover h1 span {
+    font-size: 1.6rem;
+    display: block;
+}
+
+@media (max-width: 959px) {
+    .cover h1 span {
+        font-size: 14px;
+        font-size: 3.7333333333vw;
+    }
+}
+
+/*---------------------------------
+  text-contents
+---------------------------------*/
+.text-contents {
+    text-align: center;
+    line-height: 2;
+    margin: 100px 0;
+}
+
+@media (max-width: 959px) {
+    .text-contents {
+        margin: 20px 0;
+    }
+}
